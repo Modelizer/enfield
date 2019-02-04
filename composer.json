@@ -9,20 +9,20 @@
             "email": "hello@mudasir.me"
         }
     ],
-    "minimum-stability": "dev",
     "require": {
+        "phpunit/phpunit": "^7.0",
         "behat/behat": "^3.5",
-        "behat/mink": "@dev",
-        "behat/mink-extension": "@dev",
-        "behat/mink-goutte-driver": "^1.2@dev",
-        "laracasts/behat-laravel-extension": "@dev",
-        "laravel/dusk": "^2.0",
-        "phpunit/phpunit": "~6.5",
-        "silverstripe/mink-facebook-web-driver": "^1.0"
+        "behat/mink": "^1.7",
+        "behat/mink-extension": "^2.3",
+        "dmore/behat-chrome-extension": "^1.2",
+        "laracasts/behat-laravel-extension": "master",
+        "silverstripe/mink-facebook-web-driver": "^1.0",
+        "laravel/dusk": "^4.0"
     },
     "autoload": {
         "psr-4": {
             "Modelizer\\Enfield\\": "src/"
         }
-    }
+    },
+    "minimum-stability": "dev"
 }
